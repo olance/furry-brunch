@@ -1,0 +1,36 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# Public and doc folder only contain generated/copied files
+public/
+doc/
+
+# NPM packages folder.
+node_modules/
+
+# Temporary files.
+# Brunch folder
+tmp/
+# Our own
+temp/
+
+# RubyMine project files
+.idea/

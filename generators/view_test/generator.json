@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "from": "view_test.coffee.hbs",
+      "to": "spec/views/{{name}}_spec.coffee"
+    }
+  ],
+  "dependencies": []
+}

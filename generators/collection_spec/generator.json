@@ -1,0 +1,7 @@
+{
+  "files": [{
+      "from": "collection_spec.coffee.hbs",
+      "to": "spec/collections/{{pluralName}}_spec.coffee"
+    }],
+    "dependencies": []
+}
