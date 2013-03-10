@@ -6,5 +6,5 @@ module.exports = class AppView extends View
 
   initialize: ->
     @router = new AppRouter()
-    Configurator?.Routers?.AppRouter = @router
+    MyApp?.Routers?.AppRouter = @router
 

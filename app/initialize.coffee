@@ -10,7 +10,8 @@ $ ->
   require 'lib/app_helpers'
 
   # Initialize App
-  MyApp.Views.AppView = new AppView = require 'views/app_view'
+  AppView = require 'views/app_view'
+  MyApp.Views.AppView = new AppView()
 
   # Initialize Backbone History
   Backbone.history.start pushState: yes
